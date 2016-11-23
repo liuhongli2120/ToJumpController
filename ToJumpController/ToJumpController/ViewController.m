@@ -9,6 +9,12 @@
 #import "ViewController.h"
 #import "MineModel.h"
 #import "HLUniversityCell.h"
+#import "HLBeiJingUniversityViewController.h"
+#import "HLQingHuaUniversityViewController.h"
+#import "HLBeiJingWaiGuoYuViewController.h"
+#import "HLShangHaiJiaoTongViewController.h"
+#import "HLShangHaiWaiGuoYuViewController.h"
+#import "HLAnHuiGongChengViewController.h"
 
 static NSString *cellId = @"cellId";
 
@@ -22,7 +28,7 @@ static NSString *cellId = @"cellId";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"小浣熊跳转控制器";
+    self.navigationItem.title = @"跳转控制器";
     [self loadPlistData];
     [self setupUI];
 }
@@ -42,7 +48,33 @@ static NSString *cellId = @"cellId";
     NSLog(@"name = %@,  city = %@, %zd -- %zd", _selectedModel.name, _selectedModel.city, _funcList[indexPath.section], group[indexPath.row]);
     
     if ([_selectedModel.name isEqualToString:@"北京大学"]) {
-        
+        HLBeiJingUniversityViewController *vc = [[HLBeiJingUniversityViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if ([_selectedModel.name isEqualToString:@"清华大学"]) {
+        HLQingHuaUniversityViewController *vc = [[HLQingHuaUniversityViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if ([_selectedModel.name isEqualToString:@"北京外国语大学"]) {
+        HLBeiJingWaiGuoYuViewController *vc = [[HLBeiJingWaiGuoYuViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if ([_selectedModel.name isEqualToString:@"上海交通大学"]) {
+        HLShangHaiJiaoTongViewController *vc = [[HLShangHaiJiaoTongViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if ([_selectedModel.name isEqualToString:@"上海外国语大学"]) {
+        HLShangHaiWaiGuoYuViewController *vc = [[HLShangHaiWaiGuoYuViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if ([_selectedModel.name isEqualToString:@"安徽工程大学"]) {
+        HLAnHuiGongChengViewController *vc = [[HLAnHuiGongChengViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
