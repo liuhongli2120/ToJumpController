@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>北京大学</string>
+			<key>city</key>
+			<string>北京</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>清华大学</string>
+			<key>city</key>
+			<string>北京</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>北京外国语大学</string>
+			<key>city</key>
+			<string>北京</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>上海交通大学</string>
+			<key>city</key>
+			<string>上海</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>上海外国语大学</string>
+			<key>city</key>
+			<string>上海</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>安徽工程大学</string>
+			<key>city</key>
+			<string>芜湖</string>
+		</dict>
+	</array>
+</array>
+</plist>
