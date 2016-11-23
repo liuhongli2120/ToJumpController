@@ -10,4 +10,14 @@
 
 @interface MineModel : NSObject
 
+/**
+ 高校名字
+ */
+@property (nonatomic, copy) NSString *name;
+
+/**
+ 高校所在城市名
+ */
+@property (nonatomic, copy) NSString *city;
+
 @end

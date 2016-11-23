@@ -15,6 +15,13 @@
 		F295141E1DE5ECC300BC59DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F295141C1DE5ECC300BC59DB /* LaunchScreen.storyboard */; };
 		F29514281DE5ED5000BC59DB /* MineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F29514271DE5ED5000BC59DB /* MineModel.m */; };
 		F295142A1DE5EDC100BC59DB /* myUniversityName.plist in Resources */ = {isa = PBXBuildFile; fileRef = F29514291DE5EDC100BC59DB /* myUniversityName.plist */; };
+		F295142E1DE5F5E900BC59DB /* HLUniversityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F295142D1DE5F5E900BC59DB /* HLUniversityCell.m */; };
+		F29514321DE5FAD000BC59DB /* HLBeiJingUniversityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29514311DE5FAD000BC59DB /* HLBeiJingUniversityViewController.m */; };
+		F29514351DE5FAFF00BC59DB /* HLQingHuaUniversityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29514341DE5FAFF00BC59DB /* HLQingHuaUniversityViewController.m */; };
+		F29514381DE5FB2F00BC59DB /* HLBeiJingWaiGuoYuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29514371DE5FB2F00BC59DB /* HLBeiJingWaiGuoYuViewController.m */; };
+		F295143B1DE5FB4200BC59DB /* HLShangHaiJiaoTongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F295143A1DE5FB4200BC59DB /* HLShangHaiJiaoTongViewController.m */; };
+		F295143E1DE5FB5D00BC59DB /* HLShangHaiWaiGuoYuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F295143D1DE5FB5D00BC59DB /* HLShangHaiWaiGuoYuViewController.m */; };
+		F29514411DE5FB7300BC59DB /* HLAnHuiGongChengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29514401DE5FB7300BC59DB /* HLAnHuiGongChengViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,20 @@
 		F29514261DE5ED5000BC59DB /* MineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineModel.h; sourceTree = "<group>"; };
 		F29514271DE5ED5000BC59DB /* MineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineModel.m; sourceTree = "<group>"; };
 		F29514291DE5EDC100BC59DB /* myUniversityName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myUniversityName.plist; sourceTree = "<group>"; };
+		F295142C1DE5F5E900BC59DB /* HLUniversityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLUniversityCell.h; sourceTree = "<group>"; };
+		F295142D1DE5F5E900BC59DB /* HLUniversityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLUniversityCell.m; sourceTree = "<group>"; };
+		F29514301DE5FAD000BC59DB /* HLBeiJingUniversityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBeiJingUniversityViewController.h; sourceTree = "<group>"; };
+		F29514311DE5FAD000BC59DB /* HLBeiJingUniversityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLBeiJingUniversityViewController.m; sourceTree = "<group>"; };
+		F29514331DE5FAFF00BC59DB /* HLQingHuaUniversityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLQingHuaUniversityViewController.h; sourceTree = "<group>"; };
+		F29514341DE5FAFF00BC59DB /* HLQingHuaUniversityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLQingHuaUniversityViewController.m; sourceTree = "<group>"; };
+		F29514361DE5FB2F00BC59DB /* HLBeiJingWaiGuoYuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBeiJingWaiGuoYuViewController.h; sourceTree = "<group>"; };
+		F29514371DE5FB2F00BC59DB /* HLBeiJingWaiGuoYuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLBeiJingWaiGuoYuViewController.m; sourceTree = "<group>"; };
+		F29514391DE5FB4200BC59DB /* HLShangHaiJiaoTongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLShangHaiJiaoTongViewController.h; sourceTree = "<group>"; };
+		F295143A1DE5FB4200BC59DB /* HLShangHaiJiaoTongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLShangHaiJiaoTongViewController.m; sourceTree = "<group>"; };
+		F295143C1DE5FB5D00BC59DB /* HLShangHaiWaiGuoYuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLShangHaiWaiGuoYuViewController.h; sourceTree = "<group>"; };
+		F295143D1DE5FB5D00BC59DB /* HLShangHaiWaiGuoYuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLShangHaiWaiGuoYuViewController.m; sourceTree = "<group>"; };
+		F295143F1DE5FB7300BC59DB /* HLAnHuiGongChengViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAnHuiGongChengViewController.h; sourceTree = "<group>"; };
+		F29514401DE5FB7300BC59DB /* HLAnHuiGongChengViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAnHuiGongChengViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +84,8 @@
 		F295140D1DE5ECC300BC59DB /* ToJumpController */ = {
 			isa = PBXGroup;
 			children = (
+				F295142F1DE5FA9300BC59DB /* Controller */,
+				F295142B1DE5F5A600BC59DB /* View */,
 				F29514251DE5ED1900BC59DB /* Model */,
 				F29514111DE5ECC300BC59DB /* AppDelegate.h */,
 				F29514121DE5ECC300BC59DB /* AppDelegate.m */,
@@ -95,6 +118,34 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F295142B1DE5F5A600BC59DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F295142C1DE5F5E900BC59DB /* HLUniversityCell.h */,
+				F295142D1DE5F5E900BC59DB /* HLUniversityCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F295142F1DE5FA9300BC59DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F29514301DE5FAD000BC59DB /* HLBeiJingUniversityViewController.h */,
+				F29514311DE5FAD000BC59DB /* HLBeiJingUniversityViewController.m */,
+				F29514331DE5FAFF00BC59DB /* HLQingHuaUniversityViewController.h */,
+				F29514341DE5FAFF00BC59DB /* HLQingHuaUniversityViewController.m */,
+				F29514361DE5FB2F00BC59DB /* HLBeiJingWaiGuoYuViewController.h */,
+				F29514371DE5FB2F00BC59DB /* HLBeiJingWaiGuoYuViewController.m */,
+				F29514391DE5FB4200BC59DB /* HLShangHaiJiaoTongViewController.h */,
+				F295143A1DE5FB4200BC59DB /* HLShangHaiJiaoTongViewController.m */,
+				F295143C1DE5FB5D00BC59DB /* HLShangHaiWaiGuoYuViewController.h */,
+				F295143D1DE5FB5D00BC59DB /* HLShangHaiWaiGuoYuViewController.m */,
+				F295143F1DE5FB7300BC59DB /* HLAnHuiGongChengViewController.h */,
+				F29514401DE5FB7300BC59DB /* HLAnHuiGongChengViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +172,7 @@
 		F29514031DE5ECC300BC59DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HL;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = lhl;
 				TargetAttributes = {
@@ -169,7 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F29514281DE5ED5000BC59DB /* MineModel.m in Sources */,
+				F29514351DE5FAFF00BC59DB /* HLQingHuaUniversityViewController.m in Sources */,
+				F29514321DE5FAD000BC59DB /* HLBeiJingUniversityViewController.m in Sources */,
+				F29514381DE5FB2F00BC59DB /* HLBeiJingWaiGuoYuViewController.m in Sources */,
+				F295142E1DE5F5E900BC59DB /* HLUniversityCell.m in Sources */,
+				F29514411DE5FB7300BC59DB /* HLAnHuiGongChengViewController.m in Sources */,
 				F29514161DE5ECC300BC59DB /* ViewController.m in Sources */,
+				F295143B1DE5FB4200BC59DB /* HLShangHaiJiaoTongViewController.m in Sources */,
+				F295143E1DE5FB5D00BC59DB /* HLShangHaiWaiGuoYuViewController.m in Sources */,
 				F29514131DE5ECC300BC59DB /* AppDelegate.m in Sources */,
 				F29514101DE5ECC300BC59DB /* main.m in Sources */,
 			);

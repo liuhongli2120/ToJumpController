@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MineModel;
 
 @interface ViewController : UIViewController
+
+/**
+ 选中模型
+ */
+@property (nonatomic, strong) MineModel *selectedModel;
 
 
 @end
